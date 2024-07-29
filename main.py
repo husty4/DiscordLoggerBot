@@ -1,6 +1,6 @@
 import logging
-import discord
-from discord.ext import commands
+import disnake
+from disnake.ext import commands
 from dotenv import load_dotenv
 import os
 
@@ -9,7 +9,6 @@ import os
 from Logging.MessageLogging import log_message, log_message_delete
 from Logging.VoiceStateLogging import log_voice_state_update
 from logging.handlers import RotatingFileHandler
-
 
 load_dotenv()
 TOKEN = os.getenv('BOT_TOKEN')
@@ -38,7 +37,7 @@ voice_formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s',
 voice_handler.setFormatter(voice_formatter)
 voice_logger.addHandler(voice_handler)
 
-intents = discord.Intents.default()
+intents = disnake.Intents.default()
 intents.message_content = True
 intents.messages = True
 intents.guilds = True
@@ -47,14 +46,12 @@ intents.voice_states = True
 bot = commands.Bot(command_prefix="/", intents=intents)
 
 
-async def load_extensions():
-    await bot.load_extension('cogs.LogCommand')
+
 
 #Status checker
 @bot.event
 async def on_ready():
-    print('Bot is ready')
-
+    print(f'Logged in as {bot.user}')
 #Message logger
 @bot.event
 async def on_message(message):
@@ -71,9 +68,11 @@ async def on_message_delete(message):
 async def on_voice_state_update(member, before, after):
     log_voice_state_update(member, before, after)
 
+@bot.command()
+async def ping(ctx):
+    await ctx.send('Pong')
 
 
-
-
+bot.load_extensions("cogs")
 
 bot.run(TOKEN)
