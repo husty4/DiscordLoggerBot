@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
-from cogs import moderation
+
 
 
 from Logging.MessageLogging import log_message, log_message_delete
@@ -53,7 +53,7 @@ async def load_extensions():
 #Status checker
 @bot.event
 async def on_ready():
-    message_logger.info('Bot is ready')
+    print('Bot is ready')
 
 #Message logger
 @bot.event
@@ -71,9 +71,8 @@ async def on_message_delete(message):
 async def on_voice_state_update(member, before, after):
     log_voice_state_update(member, before, after)
 
-#Регистрация команды
-async def clear():
-    await bot.add_cog(moderation(bot))
+
+
 
 
 
