@@ -1,0 +1,50 @@
+[22-07-2024, 18:16:58] on_message has successfully been registered as an event
+[22-07-2024, 18:16:58] on_message_delete has successfully been registered as an event
+[22-07-2024, 18:16:58] on_voice_state_update has successfully been registered as an event
+[22-07-2024, 18:16:58] Using proactor: IocpProactor
+[22-07-2024, 18:16:58] logging in using static token
+[22-07-2024, 18:16:58] Shard ID None has connected to Gateway (Session ID: c9ed94a9b36bf01e23d5fae209c54970).
+[22-07-2024, 18:17:00] hustyprod joined voice channel Основной
+[22-07-2024, 18:17:02] hustyprod left voice channel Основной
+[22-07-2024, 18:17:31] logging in using static token
+[22-07-2024, 18:17:32] Shard ID None has connected to Gateway (Session ID: e0348206c7bd1b657e69c773b2526b19).
+[22-07-2024, 18:17:34] hustyprod: dsfsdfsdfs
+[22-07-2024, 18:17:35] hustyprod joined voice channel Основной
+[22-07-2024, 18:17:36] hustyprod has muted their microphone
+[22-07-2024, 18:17:37] hustyprod has deafened themselves
+[22-07-2024, 18:17:38] hustyprod has undeafened themselves
+[22-07-2024, 18:17:39] hustyprod has unmuted their microphone
+[22-07-2024, 18:21:51] logging in using static token
+[22-07-2024, 18:21:52] Shard ID None has connected to Gateway (Session ID: 7f6b7411289027c1e3676a0cbfac8ba5).
+[22-07-2024, 18:21:54] hustyprod: dsfsd
+[22-07-2024, 18:21:55] hustyprod left voice channel Основной
+[22-07-2024, 18:21:57] hustyprod joined voice channel Основной
+[22-07-2024, 18:21:58] hustyprod left voice channel Основной
+[22-07-2024, 18:22:12] logging in using static token
+[22-07-2024, 18:22:13] Shard ID None has connected to Gateway (Session ID: 44a3357df382fec5e14b4113959a907a).
+[22-07-2024, 18:22:15] hustyprod joined voice channel Основной
+[22-07-2024, 18:22:16] hustyprod left voice channel Основной
+[22-07-2024, 18:23:27] logging in using static token
+[22-07-2024, 18:23:28] Shard ID None has connected to Gateway (Session ID: 1bef7c63f3c93b8a3395d0fc202983bd).
+[22-07-2024, 18:23:30] hustyprod joined voice channel Основной
+[22-07-2024, 18:23:42] hustyprod left voice channel Основной
+[22-07-2024, 18:23:42] hustyprod joined voice channel Основной
+[22-07-2024, 18:23:43] hustyprod has muted their microphone
+[22-07-2024, 18:23:43] hustyprod has unmuted their microphone
+[22-07-2024, 18:25:47] logging in using static token
+[22-07-2024, 18:25:48] Shard ID None has connected to Gateway (Session ID: 142a6602850145831af0d50172dfb5f1).
+[22-07-2024, 18:25:54] hustyprod left voice channel Основной
+[22-07-2024, 18:25:54] hustyprod joined voice channel Основной
+[22-07-2024, 19:38:42] logging in using static token
+[22-07-2024, 19:38:42] Shard ID None has connected to Gateway (Session ID: 2794119e5d599dcd7cf72c89ed9d27af).
+[22-07-2024, 19:38:54] hustyprod: kjljlkl
+[22-07-2024, 19:39:08] hustyprod joined voice channel Основной
+[22-07-2024, 19:39:13] hustyprod has muted their microphone
+[22-07-2024, 19:39:14] hustyprod has unmuted their microphone
+[22-07-2024, 19:39:15] hustyprod has deafened themselves
+[22-07-2024, 19:39:16] hustyprod has undeafened themselves
+[22-07-2024, 19:39:18] hustyprod left voice channel Основной
+[23-07-2024, 22:31:39] logging in using static token
+[23-07-2024, 22:31:40] Shard ID None has connected to Gateway (Session ID: f6e7516d63758b3c12556829d53b819d).
+[23-07-2024, 22:31:54] hustyprod: gfh
+[23-07-2024, 22:31:56] hustyprod: nblyabydy
