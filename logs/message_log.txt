@@ -29,6 +29,3 @@
 [24-07-2024, 13:24:25] [INFO] [moderation] hustyprod: /clear 2
 [24-07-2024, 13:24:25] [INFO] [moderation] hustyprod: /clear 2
 [24-07-2024, 13:24:25] [INFO] [moderation] hustyprod: /clear 2
-[29-07-2024, 18:52:36] [INFO] [moderation] hustyprod: fd
-[29-07-2024, 18:52:39] [INFO] [moderation] hustyprod: /clar
-[29-07-2024, 18:52:41] [INFO] [moderation] hustyprod: /clear
