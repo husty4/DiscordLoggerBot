@@ -4,8 +4,6 @@ from disnake.ext import commands
 from dotenv import load_dotenv
 import os
 
-
-
 from Logging.MessageLogging import log_message, log_message_delete
 from Logging.VoiceStateLogging import log_voice_state_update
 from logging.handlers import RotatingFileHandler
@@ -43,8 +41,7 @@ intents.messages = True
 intents.guilds = True
 intents.voice_states = True
 
-bot = commands.Bot(command_prefix="/", intents=intents)
-
+bot = commands.Bot(command_prefix="/", intents=disnake.Intents.all())
 
 
 
@@ -57,6 +54,8 @@ async def on_ready():
 async def on_message(message):
     log_message(message)
     await bot.process_commands(message)
+    global last_channel
+    last_channel = message.channel
 
 #Message delete logger
 @bot.event
@@ -67,10 +66,6 @@ async def on_message_delete(message):
 @bot.event
 async def on_voice_state_update(member, before, after):
     log_voice_state_update(member, before, after)
-
-@bot.command()
-async def ping(ctx):
-    await ctx.send('Pong')
 
 
 bot.load_extensions("cogs")

@@ -58,3 +58,48 @@
 [29-07-2024, 23:05:21] [INFO] [основной] ModeratorBot: <@1260327629001854988> больше не замьючен.
 [29-07-2024, 23:05:39] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 148 kvas
 [29-07-2024, 23:05:39] [INFO] [основной] ModeratorBot: <@1260327629001854988> был замьючен на 148 минут(ы) по причине: kvas
+[30-07-2024, 11:35:28] [INFO] [основной] hustyprod: /unmute <@1260327629001854988>
+[30-07-2024, 11:35:29] [INFO] [основной] ModeratorBot: <@1260327629001854988> больше не замьючен.
+[30-07-2024, 11:35:39] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 2 test
+[30-07-2024, 11:35:40] [INFO] [основной] ModeratorBot: <@1260327629001854988> был замьючен на 2 минут(ы) по причине: test
+[30-07-2024, 11:35:50] [INFO] [основной] hustyprod: /mute <@797535204071309333> 1 1
+[30-07-2024, 11:35:50] [INFO] [основной] ModeratorBot: Вы не можете замютить себя.
+[30-07-2024, 11:42:30] [INFO] [основной] hustyprod: /mute <@797535204071309333> 1 1
+[30-07-2024, 11:42:30] [INFO] [основной] ModeratorBot: You cannot mute yourself
+[30-07-2024, 11:42:43] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 2 reson
+[30-07-2024, 11:42:44] [INFO] [основной] ModeratorBot: <@1260327629001854988> was muted for 2 minute(s). Reason: reson
+[30-07-2024, 11:42:52] [INFO] [основной] hustyprod: /unmute <@1260327629001854988>
+[30-07-2024, 11:42:52] [INFO] [основной] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 11:43:05] [INFO] [основной] hustyprod: /unmute <@1260327629001854988>
+[30-07-2024, 11:43:05] [INFO] [основной] ModeratorBot: <@1260327629001854988> is not muted.
+[30-07-2024, 11:43:15] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:43:16] [INFO] [основной] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 1
+[30-07-2024, 11:44:17] [INFO] [основной] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 11:44:43] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:44:44] [INFO] [moderation] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 1
+[30-07-2024, 11:44:44] [INFO] [основной] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 11:45:04] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:45:04] [INFO] [moderation] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 1
+[30-07-2024, 11:45:32] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:45:33] [INFO] [основной] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 1
+[30-07-2024, 11:45:44] [INFO] [moderation] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 11:45:57] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 2 21
+[30-07-2024, 11:45:57] [INFO] [moderation] ModeratorBot: <@1260327629001854988> was muted for 2 minute(s). Reason: 21
+[30-07-2024, 11:46:05] [INFO] [moderation] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 11:49:20] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:49:21] [INFO] [moderation] ModeratorBot: <@1260327629001854988> был замьючен на 1 минут. Причина: 1
+[30-07-2024, 11:51:42] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1
+[30-07-2024, 11:51:42] [INFO] [moderation] ModeratorBot: <@1260327629001854988> был замьючен на 1 минут. Причина: No reason provided
+[30-07-2024, 11:51:54] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> mat
+[30-07-2024, 11:52:12] [INFO] [основной] hustyprod: /unmute <@1260327629001854988>
+[30-07-2024, 11:52:49] [INFO] [основной] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 11:52:50] [INFO] [основной] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 1
+[30-07-2024, 11:53:50] [INFO] [основной] ModeratorBot: <@1260327629001854988> no longer muted.
+[30-07-2024, 12:21:13] [INFO] [основной] hustyprod: /vban <@1260327629001854988>
+[30-07-2024, 15:26:47] [INFO] [moderation] ModeratorBot: User <@1260327629001854988> has been kicked. Reason: qqqqqqq
+[30-07-2024, 15:29:16] [INFO] [основной] GoogleFormBot: 
+[30-07-2024, 15:35:38] [INFO] [moderation] hustyprod: /mute
+[30-07-2024, 15:36:43] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1 1
+[30-07-2024, 15:43:43] [INFO] [moderation] hustyprod: /mute <@1260327629001854988> 1 11
+[30-07-2024, 15:43:43] [INFO] [moderation] ModeratorBot: <@1260327629001854988> was muted for 1 minute(s). Reason: 11
+[30-07-2024, 15:44:44] [INFO] [moderation] ModeratorBot: <@1260327629001854988> no longer muted.
