@@ -66,5 +66,7 @@ async def on_voice_state_update(member, before, after):
     log_voice_state_update(member, before, after)
 
 bot.load_extensions("cogs")
+bot.load_extensions("Modules")
+
 
 bot.run(TOKEN)
