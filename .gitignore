@@ -1,4 +1,5 @@
 .env
 __pychache__/
 /logs
+ban_words.json
 

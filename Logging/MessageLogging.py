@@ -1,6 +1,6 @@
 import logging
 
-message_logger = logging.getLogger('message_logger')
+message_logger = logging.getLogger('{guild_id}_message_logger')
 
 def log_message(message):
     message_logger.info(f'[{message.channel.name}] {message.author.name}: {message.content}')

@@ -57,7 +57,7 @@ class ProfanityFilter(commands.Cog):
             return
         if any(word in message.content.lower() for word in self.banned_words):
             await message.delete()
-            await message.channel.send(f"{message.author.mention} dont use ban-words")
+            #await message.channel.send(f"{message.author.mention} dont use ban-words")
 
 
     @commands.Cog.listener()
