@@ -1,1 +1,0 @@
-[22-07-2024, 18:13:58] [INFO] This is a test log msg
