@@ -13,8 +13,8 @@ class DeleteMessageLogging(commands.Cog):
             if message.author.bot:
                 return
             time = (disnake.utils.format_dt(datetime.datetime.now(), style="D"))
-            embed = disnake.Embed(title=f"Удаление сообщения", description=f"Автор сообщения: {message.author.mention} \nКанал {message.channel.mention} \nВремя {time}", color=disnake.Colour.red())
-            embed.add_field(name="Содержание: ", value=f"> {message.content}", inline=False)
+            embed = disnake.Embed(title=f"Message delete", description=f"Author: {message.author.mention} \nChanel {message.channel.mention} \nTime {time}", color=disnake.Colour.red())
+            embed.add_field(name="Context: ", value=f"> {message.content}", inline=False)
             embed.set_thumbnail(url=message.author.display_avatar)
             await channel_log.send(embed=embed)
 

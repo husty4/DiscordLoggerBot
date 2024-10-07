@@ -5,4 +5,5 @@ ban_words.json
 server_data/
 .venv
 .idea
+moderator.db
 

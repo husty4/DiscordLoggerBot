@@ -1,10 +1,9 @@
-import logging
 import disnake
 from disnake.ext import commands
 from dotenv import load_dotenv
 import os
 
-from logging.handlers import RotatingFileHandler
+from Database.database import create_guild_table
 from Logging.EditMessageLogging import EditMessageLogging
 from Logging.DeleteMessageLogging import DeleteMessageLogging
 
@@ -17,8 +16,13 @@ intents.messages = True
 intents.guilds = True
 intents.voice_states = True
 
-bot = commands.Bot(command_prefix="/", intents=disnake.Intents.all())
+bot = commands.Bot(command_prefix="/", intents=disnake.Intents.all(), activity=disnake.Activity(type=disnake.ActivityType.watching, name="Breaking bad"))
 
+@bot.event
+async def on_guild_join(guild):
+    guild_id = guild.id
+    create_guild_table(guild_id)
+    print(f"Создана таблица для сервера {guild.name} (ID: {guild_id})")
 
 
 #Status checker

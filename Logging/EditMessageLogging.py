@@ -12,9 +12,9 @@ class EditMessageLogging(commands.Cog):
             if after.author.bot:
                 return
             time = (disnake.utils.format_dt(datetime.datetime.now(), style='D'))
-            embed = disnake.Embed(title="Редактирование сообщения", description=f"Пользователь: {after.author.mention} \nКанал {after.channel.mention} \nВремя: {time}", color=disnake.Color.yellow())
-            embed.add_field(name="Прошлое содержание: ", value=f"> {before.content}", inline=False)
-            embed.add_field(name="Новое содержание: ", value=f'> {after.content}', inline=False)
+            embed = disnake.Embed(title="Message editing", description=f"User: {after.author.mention} \nChanel {after.channel.mention} \nTime: {time}", color=disnake.Color.yellow())
+            embed.add_field(name="Past content: ", value=f"> {before.content}", inline=False)
+            embed.add_field(name="New content: ", value=f'> {after.content}', inline=False)
             embed.set_thumbnail(url=after.author.display_avatar)
             await channel_log.send(embed=embed)
 

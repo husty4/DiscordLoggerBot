@@ -22,7 +22,6 @@ class AntiSpam(commands.Cog):
 
             if content == last_message and current_time - last_time < 10:
                 await message.delete()
-                await message.channel.send(f'{message.author.mention}, stop spamming!')
                 return
         self.user_messages[user_id] = (content, current_time)
 
